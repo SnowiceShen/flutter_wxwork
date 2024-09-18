@@ -32,7 +32,7 @@ rootProject.allprojects {
 //            url "$dir/aar"
 //        }
         flatDir {
-            dirs 'libs'
+            dirs "$dir/libs"
         }
     }
 }
@@ -52,7 +52,7 @@ android {
     }
     repositories {
         flatDir {
-            dirs 'libs'
+            dirs "$dir/libs"
         }
     }
     dependencies {
