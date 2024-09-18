@@ -31,9 +31,9 @@ rootProject.allprojects {
 //        maven { // 添加这个指向本地的仓库目录
 //            url "$dir/aar"
 //        }
-        flatDir {
-            dirs 'libs'
-        }
+//        flatDir {
+//            dirs 'libs'
+//        }
     }
 }
 
@@ -50,11 +50,11 @@ android {
     defaultConfig {
         minSdkVersion 24
     }
-//    repositories {
-//        flatDir {
-//            dirs 'libs'
-//        }
-//    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
     dependencies {
         testImplementation 'junit:junit:4.13.2'
         testImplementation 'org.mockito:mockito-core:5.0.0'
