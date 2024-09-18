@@ -55,7 +55,7 @@ android {
     dependencies {
         testImplementation 'junit:junit:4.13.2'
         testImplementation 'org.mockito:mockito-core:5.0.0'
-        implementation(name: 'lib_wwapi-3.0.0.6', ext: 'aar')
+        implementation(name: ':lib_wwapi-3.0.0.6', ext: 'aar')
 //        implementation "com.tecent:sdk:3.0.0.6"
     }
 
